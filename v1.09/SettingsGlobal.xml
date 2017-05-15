@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+
+	<Global>
+		<ReleaseIPAdressName>LAN-Prod;LAN_Prod;Prod;XDI;XDE</ReleaseIPAdressName><!-- Wird zwingend benoetigtt! Hier koennen beliebig viele eingetragen werden und mit ; getrennt werden. -->
+		<Shutdown>1</Shutdown><!-- 0 = Disabled / 1 = Enabled -->
+	</Global>
+
+	<Functions>
+	<!-- 0 = Disabled / 1 = Enabled -->
+	
+		<Defrag>1</Defrag><!-- If Enabeld it can take some minutes, around 10-30min -->
+        <ResyncTime>1</ResyncTime>
+        <ClearUserProfiles>1</ClearUserProfiles>
+        <CitrixUPMWMIReload>1</CitrixUPMWMIReload>
+        <CleanUp-Image>1</CleanUp-Image><!-- If Enabeld it can take some minutes, around 10-30min -->
+        <ClearEventLogs>1</ClearEventLogs>
+		
+	</Functions>
+	
+	<Costum>
+		<RemoveFolders>
+		<!--
+		Hier koennen zusaetzliche Verzeichnisse angegeben werden, welche geloescht werden.
+			<Folder>C:\Windows\SoftwareDistribution\Download</Folder>
+		-->
+		</RemoveFolders>
+	</Costum>
+
+</Settings>
