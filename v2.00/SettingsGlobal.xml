@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Settings>
-
-	<Global>
-		<ReleaseIPAdressName>CTX-Prod-LAN;LAN-Prod;LAN_Prod;Prod;XDI;XDE</ReleaseIPAdressName><!-- Wird zwingend benoetigtt! Hier koennen beliebig viele eingetragen werden und mit ; getrennt werden. -->
-	</Global>
-
-</Settings>
